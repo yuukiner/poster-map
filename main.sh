@@ -6,7 +6,7 @@ cd ~/tokyo2024-poster-map/ #Path to the folder
 git pull
 
 # Download latest CSV from spreadsheet datbase
-curl -sL "https://script.google.com/macros/s/AKfycbzE00zLkrl-k0-MWb0wbshUrLGuaPIUZNl_wPXGVxpU01DiBfS6mcUzFe8YzyHWXw8a/exec" > public/data/all.csv
+curl -sL "https://script.google.com/macros/s/AKfycbz54aol9Z_oDGFMKZTR6FkKrVohR3WKR00Va7RFmRrcKkm1zVUz8d8LFt4C0Z50rfXgFw/exec" > public/data/all.csv
 
 # all.json
 python3 csv2json_small.py public/data/all.csv public/data/
